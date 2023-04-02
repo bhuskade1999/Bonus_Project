@@ -1,4 +1,19 @@
 {
+  "name": "bonusproject5",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "npm": ">=8.0.0 <9.0.0",
+    "node": ">=16.0.0 <17.0.0"
+  },
+  "author": "Bhushan Bhuskade / Nirmala   /  Dileep / Devendra patra",
+  "license": "ISC",
+
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
