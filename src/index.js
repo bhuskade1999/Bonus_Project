@@ -11,6 +11,10 @@ mongoose.connect("mongodb+srv://nishant55:1234@nishant99.et97kst.mongodb.net/BP5
 
 app.use("/",route)
 
+app.get("/", (req,res)=>{
+        res.send("server is Connected")
+})
+
 app.listen(3000, () => {
         console.log('Example app listening on port 3000!');
 });
